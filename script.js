@@ -18,7 +18,7 @@ $('#logout-btn').on('click', function() {
         localStorage.removeItem('currentUser');
         
         // Перенаправляємо на сторінку входу
-        window.location.href = '/Login/login.html';
+        window.location.href = './Login/login.html';
     }
     // Якщо користувач натиснув "Скасувати", нічого не робимо
 });
