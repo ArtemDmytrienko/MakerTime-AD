@@ -51,7 +51,7 @@ $('#auth-form').on('submit', function(e) {
         // --- ВХІД ---
         if (users[email] && users[email] === password) {
             localStorage.setItem('currentUser', email);
-            window.location.href = 'index.html'; // Перехід до нотаток
+            window.location.href = '/MakerTime-AD/index.html'; // Перехід до нотаток
         } else {
             alert("Невірний email або пароль.");
         }
